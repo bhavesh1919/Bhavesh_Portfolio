@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { motion, useScroll, useSpring } from 'framer-motion'
 import {
-  ArrowDown, ArrowRight, ArrowUpRight, BriefcaseBusiness, Check,
+  ArrowDown, ArrowUpRight, BriefcaseBusiness, Check,
   Code2, Database, Download, ExternalLink, Github, GraduationCap,
   Mail, MapPin, Menu, Moon, Phone, Send, Sun, X, MessageCircle,
   Linkedin, Terminal, Sparkles, Layers3, Globe2,
