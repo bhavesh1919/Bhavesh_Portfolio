@@ -77,7 +77,7 @@ function App() {
             <motion.p className="hero-description" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: .5 }}>{profile.objective}</motion.p>
             <motion.div className="hero-buttons" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: .6 }}>
               <a className="button button-primary" href="#contact">Contact me <ArrowUpRight size={17} /></a>
-              <a className="button button-secondary" href="/Bhavesh_Resume.pdf" download>Download resume <Download size={18} /></a>
+              <a className="button button-secondary" href="/Bhavesh_Resume.pdf" download="Bhavesh_Resume.pdf">Download resume <Download size={18} /></a>
             </motion.div>
             <div className="hero-socials"><a href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub"><Github /></a><a href={profile.linkedin} target="_blank" rel="noreferrer" aria-label="LinkedIn"><Linkedin /></a><a href={profile.whatsapp} target="_blank" rel="noreferrer" aria-label="WhatsApp"><MessageCircle /></a><span className="social-location"><MapPin size={14} /> Ahmedabad, India</span></div>
           </div>
